@@ -1,0 +1,63 @@
+# Ignore model files and checkpoints in backend
+/backend/models/*
+!/backend/models/README.md
+
+# Ignore all Jupyter notebook checkpoints
+/backend/models/**/*.ipynb_checkpoints/
+
+# Ignore node_modules in frontend
+/fontend/node_modules/
+/fontend/**/node_modules/
+
+# Ignore environment and cache files
+/backend/models/__pycache__/
+/backend/models/*.pyc
+/backend/models/*.pyo
+/backend/models/*.pyd
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows thumbnail cache
+Thumbs.db
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+cd /d d:\
