@@ -97,7 +97,7 @@ npm run dev
 
 ## 🤝 Done by
 
-**Team Mission Impossible**
+**Team Horizons**
 
 ---
 
